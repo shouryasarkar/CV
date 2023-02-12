@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Personal Information</title>
+
+        <style>
+            body
+            {
+                background-color: #FFC18E;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>My Contact Details</h3>
+        <ul>
+            <p>If anyone wants to get in touch with me please connect me here. The links are given below:</p>
+            <li>Linkdin: Shourya Sarkar</li>
+            <li>Email: shouryapr123@gmail.com</li>
+            <li>Twitter: Shourya321</li>
+        </ul>
+        <hr>
+        <!--This form tag dosn't really do anything it just to make a form-->
+        <!--here the mailto func is for sending anyting that is written inside the message box and when hit submit will go to this mail. Here the post simply means that it is going simply transfer what the user types into this input fields to the mail-->
+        <form action = "mailto: shouryapr123@gmail.com" method = "post" enctype="text/plain">
+            <!--the main things inside a form tag is the label and the input-->
+            <!--label is for displaying a text inside a form-->
+            <!--input is another type of tag which is used to define the type iside the label tag-->
+            <!--asking user for their name input-->
+            <label>Your Name: </label>
+            <!--storing this information here. the type of input is going to be text taht's why we have written text in type -->
+            <input type="text" name="yourName" value="">
+            <br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><br>
+            <label>Your Message:</label><br>
+            <!--here the textarea has rows and columns(cols) -->
+            <!--here the rows define the how tall the text area should be and cols define how wide the text area should be-->
+            <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+            <input type="submit" name="">
+        </form>
+    </body>
+</html>

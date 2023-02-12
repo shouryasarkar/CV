@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Shourya's Personal Site</title>
+    <style>
+
+        /*here the body is the css part in the code. it is specifying the background colourin the code using css file*/
+        body
+        {
+            background-color: #9ED5C5;
+        }
+        hr
+        {
+            background-color: white;
+            border-style: none;
+            height: 2px; /*here the height means the border height that it is written in replace of hr to increase the height of the border*/
+            width: auto; /*here the width of the line is auto cause we don't know from where we are going to view the wensite be it phone or computer*/
+        }
+        img
+        {
+            height: 130px;
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <table cellspacing = "20">
+            <tr>
+                <td><img src = "D:\Web Dev Course\HTML\myproject\templates\2153056_Shourya Sarkar (1)-modified.png" alt = "Shourya profile pic"></td>
+                <td>
+                    <h1>Shourya Sarkar</h1>
+                    <!--here the p tag is the paragraph tag which convets text into paragraph-->
+                    <!--here the em and i tag both does the same thing it's just that em emphasises the text and i italicize the text-->
+                    <!--here the strong makes that part important as well as bold-->
+                    <p><em>Sophmore at <strong><a href = "https://www.heritageit.edu/">Heritage Institute of Technology</a></strong>.</em></p>
+                    <p>I am a sophomore at Heritage Institute of Technology, passionate about technology and always eager to learn about the latest advancements. In my free time, I enjoy playing cricket and video games. My love for sports and technology makes me a well-rounded individual with a thirst for knowledge and new experiences.</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Education</h3> 
+        <!--here the unordered list is defined as ul with bullets-->
+        <ul>
+            <!--the li tag is going to declare each item as a list using bullets-->
+            <li><a href = "https://www.heritageit.edu/">Heritage Institute of Technology</a>, Present</li>
+            <li>Passed <a href = "https://www.nhscbse.com/">National High School</a> Class-12, 2021</li>
+            <li>Passed <a href = "https://www.southpoint.edu.in/">South Point High School</a> Class-10, 2019</li>
+        </ul>
+        <hr>
+        <h3>Work Experience</h3>
+        <!--going to make a table where we will be able to put our data-->
+        <table cellspacing = "20">
+            <thead>
+                <tr>
+                    <th>Dates</th>
+                    <th>Work</th>
+                </tr>
+            </thead>
+            <!--here tr represents table row-->
+            <tr> <!--between this table tr we need to input some data then it is going to be formed in the form of a row-->
+                <!--here the td is for table data-->
+                <td>
+                    2006-2019
+                </td>
+
+                <td>
+                    Studied secondary education 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    2019-2021
+                </td>
+
+                <td>
+                    Studied Senior Secomdary education with Science
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Skills</h3>
+        <table cellspacing = "20">
+            <tr>
+                <td>Python ⭐⭐⭐⭐⭐</td>
+                <td>Singing ⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>MySql ⭐⭐⭐⭐</td>
+                <td>Phtography ⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>C ⭐⭐⭐</td>
+                <td>Cricket ⭐⭐⭐⭐⭐</td>
+            </tr>
+        </table>
+        <hr>
+        <!--here the a href means that is importing the other html files inside this html as they are written in a seperate file-->
+        <a href = "hobbies.html">My Hobbies</a>
+        <br>
+        <a href = "Info.html">Personal Information</a>
+    </body>
+</html>
