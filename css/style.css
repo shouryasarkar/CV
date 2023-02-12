@@ -17,8 +17,9 @@
      height: 130px;
  }
 
- h1
+h1
  {
+    font-family: cursive;
     color: #22577E;
  }
 
@@ -30,4 +31,17 @@
  h3
  {
     color: #22577E;
+ }
+
+ p
+ {
+    font: italic 1.2em "Fira Sans", serif;
+ }
+ li
+ {
+    font-style: italic;
+ }
+ td
+ {
+    font-style: italic;
  }
